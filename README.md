@@ -8,12 +8,11 @@ with this script you can easy backup your MYSQL Database
 4. Test
 5. Make a CronJob
 
-2. Edit the File
 
 
 
-    
-
+**Edit the File**
+ 
 > Example
 > 
 > HOSTNAME= Your Hostname from the Mysql-server      
@@ -35,8 +34,8 @@ with this script you can easy backup your MYSQL Database
 > `MAX_NUMBER_OF_FILES=5`
 >  
 
-
-4. login with putty or a other ssh client
+**test the script**
+ login with putty or a other ssh client
    test the script (e.g the script is in the folder ~/scripts/
    
 
@@ -44,7 +43,7 @@ with this script you can easy backup your MYSQL Database
        ./mysql-backup.sh
 
    
-5. Make a CronJob
+**Make a CronJob**
 
     `0 0 * * * ~/scripts/mysql_backup.sh` # take a backup every midnight
     `0 2 * * * ~/scripts/mysql_backup.s` # take a backup every midnight
