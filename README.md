@@ -34,12 +34,15 @@ with this script you can easy backup your MYSQL Database
 > `MAX_NUMBER_OF_FILES=5`
 >  
 
-**test the script**
- login with putty or a other ssh client
-   test the script (e.g the script is in the folder ~/scripts/
+**test the script**\
+ login with putty or a other ssh client\
+ make it runnable with chmod\
+ test the script (e.g the script is in the folder ~/scripts/
+  
    
 
        cd scripts
+       chmod +x backup-nextcloud.sh      
        ./mysql-backup.sh
 
    
