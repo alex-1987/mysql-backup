@@ -25,8 +25,8 @@ TIME=`date +%H-%M-%S`
 BACKUP_FILE_NAME=${DATABASE_NAME}_${DATE}_${TIME}.sql
 DEST=${BACKUP_DIR}${DATABASE_NAME}/
 
-
-# If the folder exist make a Nothing, if not make the Folder
+# The backup dir is: BACKUP_DIR/DATABASE_NAME/
+# If the folder exist make a Nothing, if not, make the Folder
 if [[ ! -d $DEST ]]; then
 	mkdir -p $DEST
 fi
