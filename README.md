@@ -63,5 +63,5 @@ go to your folder with the backups\
 cd your path to your Backups\
 mysql -h [host Name] -u [username] -p [database Name] < [dein sql Backup.sql]\
 
->cd ~/BACKUP/Database/\
->mysql -h db.internal -u cloud-user -p nextcloud_datab < db1-table1.sql\ 
+     `cd ~/BACKUP/Database/\
+     `mysql -h db.internal -u cloud-user -p nextcloud_datab < db1-table1.sql\ 
