@@ -48,9 +48,9 @@ with this script you can easy backup your MYSQL Database
    
 **Make a CronJob**
 
-    `0 0 * * * ~/scripts/mysql_backup.sh` # take a backup every midnight
-    `0 2 * * * ~/scripts/mysql_backup.sh` # take a backup every day 02:00 o clock
-    `0 0 * * 1 ~/scripts/mysql_backup.sh` # Every Monday
+        0 0 * * * ~/scripts/mysql_backup.sh` # take a backup every midnight
+        0 2 * * * ~/scripts/mysql_backup.sh` # take a backup every day 02:00 o clock
+        0 0 * * 1 ~/scripts/mysql_backup.sh` # Every Monday
 
 # DONE
 
@@ -63,5 +63,5 @@ go to your folder with the backups\
 cd your path to your Backups\
 mysql -h [host Name] -u [username] -p [database Name] < [dein sql Backup.sql]\
 
-     `cd ~/BACKUP/Database/\
-     `mysql -h db.internal -u cloud-user -p nextcloud_datab < db1-table1.sql\ 
+     cd ~/BACKUP/Database/\
+     mysql -h db.internal -u cloud-user -p nextcloud_datab < db1-table1.sql\ 
