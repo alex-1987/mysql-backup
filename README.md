@@ -57,7 +57,8 @@ with this script you can easy backup your MYSQL Database
 
 **Restore Backup**
 
-login with putty or a other ssh client\
-mysql -h [host Name] -u [username] -p [database Name] < [dein sql Backup.sql]
+login with putty or a other ssh client
 
-mysql -h db.internal -u cloud-user -p nextcloud_datab < db1-table1.sql 
+>mysql -h [host Name] -u [username] -p [database Name] < [dein sql Backup.sql]
+>
+>mysql -h db.internal -u cloud-user -p nextcloud_datab < db1-table1.sql 
