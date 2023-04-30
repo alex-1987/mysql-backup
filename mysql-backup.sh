@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-HOSTNAME=server.mysql.db.internal
+HOSTNAME=localhost
 DATABASE_NAME=nextcloud
 USER_NAME=cloud
 PASSWORD=youPassword
