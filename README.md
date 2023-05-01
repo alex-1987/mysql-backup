@@ -57,11 +57,6 @@ with this script you can easy backup your MYSQL Database
 
 **Restore Backup**
 
-login with putty or a other ssh client\
-go to your folder with the backups\
+there is a good tutorial on Nextcloud
 
-cd your path to your Backups\
-mysql -h [host Name] -u [username] -p [database Name] < [dein sql Backup.sql]\
-
-     cd ~/BACKUP/Database/\
-     mysql -h db.internal -u cloud-user -p nextcloud_datab < db1-table1.sql\ 
+https://docs.nextcloud.com/server/latest/admin_manual/maintenance/restore.html
